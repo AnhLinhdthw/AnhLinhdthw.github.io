@@ -28,7 +28,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-     var audio = new Audio('sound/Crush.mp3');
+     var audio = new Audio('sound/duck.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
@@ -101,7 +101,7 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyy 😆'>",
-        background: '#fff url("img/crush0.jpg")',
+        background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
@@ -120,7 +120,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#fff url("img/iput-bg.jpg")',
+                background: '#fff url("img/iput-bg1.jpg")',
                 title: 'Em biết mà ^^ Yêu chị hơn 3000 😁😁',
                 text: "Còn chờ gì nữa hãy inbox cho em đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
