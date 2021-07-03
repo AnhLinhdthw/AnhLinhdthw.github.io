@@ -120,7 +120,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#fff url("img/iput-bg1.jpg")',
+                background: '#fff url("img/ipt-bg.jpg")',
                 title: 'Em biết mà ^^ Yêu chị hơn 3000 😁😁',
                 text: "Còn chờ gì nữa hãy inbox cho em đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
